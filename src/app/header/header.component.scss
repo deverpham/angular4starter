@@ -1,0 +1,12 @@
+@import '../styles/variables.style.scss';
+//variable
+$headerHight: 100px;
+//
+header {
+  background: $mautrungtinh;
+  max-height: $headerHight;
+
+}
+.header_logo__img {
+  @extend %img-responsive;
+}
